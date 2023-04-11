@@ -15,6 +15,7 @@ in mkShell {
       matplotlib
       scikit-learn
       pydot
+      cvxopt
     ]))
   ];
     shellHook = "echo 'starting jupyter' && sleep 10 && jupyter notebook";
